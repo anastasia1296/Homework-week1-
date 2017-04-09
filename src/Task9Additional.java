@@ -14,19 +14,20 @@ public class Task9Additional {
             System.out.println("Enter your height");
         int height = scan.nextInt();
             System.out.println("Enter your sex");
-        String sex = scan.nextLine();
+        String sex = scan.next();
         scan.nextLine();
 
         if(sex.equalsIgnoreCase(sex1)) {
             double idealWeight1 =  ((height - numberForWomen) * anotherNumber);
 
             System.out.println(idealWeight1);
+
         }else if(sex.equalsIgnoreCase(sex2)){
             double idealWeight2=(height-numberForMen)*anotherNumber;
 
             System.out.println(idealWeight2);
         }
-
+        System.out.println("end");
     }
 
     }
