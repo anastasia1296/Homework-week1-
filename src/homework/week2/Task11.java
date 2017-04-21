@@ -8,6 +8,7 @@ public class Task11 {
         String sentence = new String("Spring day");
         System.out.println(sentence);
         System.out.println(change(sentence));
+        System.out.println( arrayReverse(sentence));
     }
     public static  String change (String sentence){
         String[] parts = sentence.split(" ");
@@ -21,5 +22,13 @@ public class Task11 {
         swapped += parts[0];
         return swapped;
     }
-}
+    public static char[] arrayReverse(String sentence){
+        char[] array = sentence.toCharArray();
+        System.out.print("Reverse: ");
+        for (int i = array.length - 1; i >= 0; i--) {
+            System.out.print(array[i]);
+    }
+        return array;
+
+}}
 
