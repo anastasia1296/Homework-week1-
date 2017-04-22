@@ -1,5 +1,6 @@
 package homework.week2;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -7,7 +8,7 @@ import java.util.Scanner;
  */
 public class Task1 {
     public static void main(String []args) {
-        int[] arr = {5, 56, 90, 87, 66};
+        int[] arr = {5,56,90,87,66};
         int max = arr[0];
         int imax =0;
         int imin=0;
@@ -26,5 +27,7 @@ public class Task1 {
         arr[imax] = min;
         for (int i = 0; i < arr.length; i++) {
             System.out.print( arr[i]+"; ");
-    }}}
 
+    }}
+
+    }
