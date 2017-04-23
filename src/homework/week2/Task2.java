@@ -11,10 +11,10 @@ public class Task2 {
         for (int i = 35; i <= 87; i++) {
             array[i] = i;
             //System.out.print(array[i] + "; ");
-            if((array[i] % 7 == 1)||(array[i] % 7 == 2)||(array[i] % 7 == 5)) {
-                System.out.print(array[i]+"; ");
+            if ((array[i] % 7 == 1) || (array[i] % 7 == 2) || (array[i] % 7 == 5)) {
+                System.out.print(array[i] + "; ");
             }
 
-            }
         }
     }
+}

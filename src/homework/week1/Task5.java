@@ -1,19 +1,20 @@
+package homework.week1;
+
 import java.util.Scanner;
 
 /**
  * Created by Anastasya on 08.04.2017.
  */
-public class Task8 {
+public class Task5 {
     public static void main(String []args){
         Scanner scan = new Scanner(System.in);
         int i = scan.nextInt();
         int r = scan.nextInt();
-        if((i%10)==(r%10)){
-            System.out.println("true");
-
-
+        if(i>r){
+            System.out.println(i-r);
         }else{
-            System.out.println("false");
+            System.out.println(i+r);
         }
+
     }
 }

@@ -9,28 +9,28 @@ public class Task8 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter three values of array");
-        int n = scan.nextInt();
-        int k = scan.nextInt();
-        int l = scan.nextInt();
-        int[] array = {n, k, l};
-        int j1 = array[0];
+        int unevenNumber1 = scan.nextInt();
+        int ubevenNumber2 = scan.nextInt();
+        int unevenNumber3 = scan.nextInt();
+        int[] array = {unevenNumber1, ubevenNumber2, unevenNumber3};
+        int j = array[0];
         for (int i = 0; i < array.length; i++) {
             if (array[i] % 2 != 0) {
-                j1 = array[i];
-                System.out.println(j1);
+                j = array[i];
+                System.out.print(j+"; ");
             }
         }
-        if ((n % 2 != 0) && (k % 2 != 0)) {
-            System.out.println(n + k);
+        if ((unevenNumber1 % 2 != 0) && (ubevenNumber2 % 2 != 0)) {
+            System.out.println(unevenNumber1 + ubevenNumber2);
         }
-        if ((k % 2 != 0) && (l % 2 != 0)) {
-            System.out.println(k + l);
+        if ((ubevenNumber2 % 2 != 0) && (unevenNumber3 % 2 != 0)) {
+            System.out.println(ubevenNumber2 + unevenNumber3);
         }
-        if ((n % 2 != 0) && (l % 2 != 0)) {
-            System.out.println(n + l);
+        if ((unevenNumber1 % 2 != 0) && (unevenNumber3 % 2 != 0)) {
+            System.out.println(unevenNumber1 + unevenNumber3);
         }
-        if ((k % 2 != 0) && (l % 2 != 0) && (n % 2 != 0)) {
-            System.out.println(k + l + n);
+        if ((unevenNumber1 % 2 != 0) && (ubevenNumber2 % 2 != 0) && (unevenNumber3 % 2 != 0)) {
+            System.out.println(unevenNumber1 + ubevenNumber2 + unevenNumber3);
         }
     }
 }

@@ -1,3 +1,5 @@
+package homework.week1;
+
 /**
  * Created by Anastasya on 08.04.2017.
  */
