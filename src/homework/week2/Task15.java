@@ -10,7 +10,7 @@ public class Task15 {
         String countA = "a";
         int count = 0;
         for (int i = 0; i < line.length; i++) {
-            if (countA.equalsIgnoreCase(line[i])) {
+            if (countA.equalsIgnoreCase( line[i])) {
                 count++;
             }
         }
