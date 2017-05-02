@@ -17,11 +17,11 @@ public class MyUtils {
     }
 
 
-    public static int[] randomArray(int []array, int length) {
+    public static int[] randomArray(int[] array, int length) {
         int[] arr = new int[length];
         for (int i = 0; i < arr.length; i++) {
-                arr[i] = (int) (Math.random() * length);
-                System.out.print(arr[i]  + ", ");
+            arr[i] = (int) (Math.random() * length);
+            System.out.print(arr[i] + ", ");
         }
         return arr;
     }
@@ -73,7 +73,8 @@ public class MyUtils {
 
         }
     }
-     public static void findMaxElemetOfArray(int [] value2) {
+
+    public static void findMaxElemetOfArray(int[] value2) {
         int max = value2[0];
         for (int i = 1; i < value2.length; i++) {
             if (value2[i] > max) {
@@ -84,7 +85,38 @@ public class MyUtils {
 
 
     }
+
+    public static int[][] fillTheMatrix(int length, int[][] matrix) {
+        for (int i = 0; i < length; i++) {
+            for (int j = 0; j < length; j++) {
+                matrix[i][j] = length * i + j;
+            }
+
+        }
+        return matrix;
+
+
+    }
+
+    public static void printTheMatrix(int length, int[][] matrix) {
+        for (int i = 0; i < length; i++) {
+            for (int j = 0; j < length; j++) {
+                System.out.printf("%3d ", matrix[i][j]);
+            }
+            System.out.print("\n");
+        }
+        System.out.print("\nrotated\n\n");
+    }
+
+    public static int[][] rotateTheMatrix(int length, int[][] matrix) {
+        for (int k = 0; k < length / 2; k++) {
+            for (int j = k; j < length - 1 - k; j++) {
+                int tmp = matrix[k][j];
+                matrix[k][j] = matrix[j][length - 1 - k];
+                matrix[j][length - 1 - k] = matrix[length - 1 - k][length - 1 - j];
+                matrix[length - 1 - k][length - 1 - j] = matrix[length - 1 - j][k];
+                matrix[length - 1 - j][k] = tmp;
+            }
+        }return matrix;
+    }
 }
-
-
-
