@@ -5,6 +5,7 @@ import java.util.Arrays;
 /**
  * Created by Anastasya on 27.04.2017.
  */
+//2. Создать логическую матрицу по следующим критериям, если і равно j, то элементом будет true.
 public class Task2 {
     public static void main(String[] args) {
         String[][] logicMatrix = {{"false", "false", "false"},

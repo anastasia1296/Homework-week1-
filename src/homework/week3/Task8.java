@@ -5,6 +5,7 @@ import utils.MyUtils;
 /**
  * Created by Anastasya on 02.05.2017.
  */
+//9. Повернуть матрицу(Двухмерный массив). Матрица квадратная. Угол 90 градусов.
 public class Task8 {
     public static void main(String[] args) {
         int length = 6;

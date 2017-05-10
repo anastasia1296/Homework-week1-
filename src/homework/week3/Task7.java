@@ -8,6 +8,7 @@ import java.util.Set;
 /**
  * Created by Anastasya on 01.05.2017.
  */
+//8. Удалить из предложения слова которые повторяются.
 public class Task7 {
     public static void main(String[] args) {
         String text = "This is summer summer weather";

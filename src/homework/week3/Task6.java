@@ -3,6 +3,7 @@ package homework.week3;
 /**
  * Created by Anastasya on 01.05.2017.
  */
+//7. Найти самое длинное слово в строке(разделенное одним пробелом)
 public class Task6 {
     public static void main(String []args){
         String str = "My favourite language is";

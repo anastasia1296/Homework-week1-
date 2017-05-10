@@ -7,7 +7,10 @@ import java.util.Arrays;
 
 /**
  * Created by Anastasya on 16.04.2017.
+ *
  */
+//1.Заменить все числа, которые делятся на 5 без остачи в двухмерной матрице на 8
+ //   4. Создать массив, который будет состоять из диагонали матрици
 public class Task1 {
     public static void main(String[] args) {
         int[][] numbers = {
