@@ -38,7 +38,7 @@ public class Task9 {
 
         //  checkLength(length);
          checkLetters(password);
-
+         chackNumbers(password);
     }
 
     public static void checkLength(int size) {
@@ -55,6 +55,12 @@ public class Task9 {
 //            if (Character.isUpperCase(x)) {
 //                System.out.println("The password is appropriate");
 
+            }
+    public static void chackNumbers(ArrayList<String>password){
+        int x= (int) Math.random()*10;
+        if(password.contains(x)){
+
+        }System.out.println("Password is appropriate.");
             }
 
 
