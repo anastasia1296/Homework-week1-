@@ -62,7 +62,17 @@ public class Task9 {
 
         }System.out.println("Password is appropriate.");
             }
+    public static void checkUnappropriateWords(ArrayList<String>password){
+        int count=0;
+        for (int i = 0; i < password.size(); i++) {
+            String str=password.toString().substring(i,i+1);
+            if((str.equals("password"))||(str.equals("pass"))||(str.equals("gfhjkm"))){
+                System.out.println("Password is not appropriate.");
 
+            }
+
+        }
+    }
 
         }
 
