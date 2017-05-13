@@ -118,5 +118,13 @@ public class MyUtils {
                 matrix[length - 1 - j][k] = tmp;
             }
         }return matrix;
+
     }
-}
+    public static void printMatrix(int [][]array){
+    int x = array.length;
+        for (int i = 0; i < x; i++) {
+            for (int j = 0; j < x; j++) {
+                System.out.print(array[i][j] + " ");
+            }
+            System.out.println();
+        }}}
