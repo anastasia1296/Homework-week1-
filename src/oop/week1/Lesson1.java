@@ -1,8 +1,5 @@
 package oop.week1;
 
-import homework.week3.TextUtills;
-import oop.week1.utills1.u01;
-
 import java.io.IOException;
 import java.util.Arrays;
 
